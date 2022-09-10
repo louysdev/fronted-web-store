@@ -59,13 +59,24 @@ h3 {
 .header__logo {
     margin: 3rem 0;
 }
+/* Footer */
+.footer {
+    background-color: var(--primarioOscuro);
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+.footer__texto {
+    text-align: center;
+    font-family: var(--fuentePrincipal);
+    font-size: 2rem;
+}
 /* Navegacion */
 .navegacion {
     background-color: var(--primarioOscuro);
     padding: 1rem 0;
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 2rem; /* Separacion forma nueva */
 }
 .navegacion__enlace {
     font-family: var(--fuentePrincipal);
